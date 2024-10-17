@@ -42,7 +42,7 @@ b {
     display: flex;
     justify-content: center;
     align-items: center;
-    
+
 }
 
 .nitish {
@@ -55,19 +55,22 @@ b {
     display: flex;
     justify-content: center;
     align-items: center;
-    
+
 }
-.item1{
+
+.item1 {
     box-shadow: 2px 2px 2px rgb(169, 169, 169);
     border-radius: 5px;
 }
-.item1:hover{
+
+.item1:hover {
     box-shadow: 10px 10px 10px rgb(169, 169, 169);
     transition-duration: 0.1s;
     transform: scale(1.01);
     transition-timing-function: linear;
 }
-    .item1 img {
+
+.item1 img {
     height: 160px;
     border-radius: 10px;
 }
@@ -85,11 +88,13 @@ b {
     width: 300px;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
-.item2{
+
+.item2 {
     box-shadow: 2px 2px 2px rgb(169, 169, 169);
     border-radius: 5px;
 }
-.item2:hover{
+
+.item2:hover {
     box-shadow: 10px 10px 10px rgb(169, 169, 169);
     transition-duration: 0.1s;
     transform: scale(1.01);
@@ -114,11 +119,13 @@ b {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 
 }
-.item3{
+
+.item3 {
     box-shadow: 2px 2px 2px rgb(169, 169, 169);
     border-radius: 5px;
 }
-.item3:hover{
+
+.item3:hover {
     box-shadow: 10px 10px 10px rgb(169, 169, 169);
     transition-duration: 0.1s;
     transform: scale(1.01);
@@ -152,7 +159,7 @@ b {
 }
 
 .content1 {
-    background-color:#787987;
+    background-color: #787987;
     width: 50%;
     display: flex;
 }
@@ -166,20 +173,21 @@ b {
 
 }
 
-.content1 >ul {
+.content1>ul {
     font-size: 20px;
     color: white;
     font-family: sans-serif;
     padding: 40px;
     text-decoration: none;
 }
-.content1 > ul>li>a{
+
+.content1>ul>li>a {
     color: white;
     text-decoration: none;
 }
 
 .content2 {
-    background-color:#787987;
+    background-color: #787987;
     width: 50%;
     font-family: 'Inter', sans-serif;
 }
@@ -212,4 +220,180 @@ b {
     color: white;
     font-size: 20px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+@media (max-width: 1200px) {
+    .box {
+        padding-left: 15%;
+    }
+
+    .ayush {
+        font-size: 50px;
+    }
+
+    .nitish {
+        font-size: 70px;
+    }
+
+    .content1 h3,
+    .content2 span {
+        font-size: 40px;
+    }
+
+    .content1 ul {
+        font-size: 18px;
+    }
+
+    .item1 p,
+    .item2 p,
+    .item3 p {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 992px) {
+    .box {
+        padding-left: 10%;
+        padding-top: 30px;
+    }
+
+    b {
+        font-size: 60px;
+    }
+
+    .ayush {
+        font-size: 45px;
+    }
+
+    .nitish {
+        font-size: 60px;
+    }
+
+    .content1 h3,
+    .content2 span {
+        font-size: 35px;
+    }
+
+    .item1 img,
+    .item2 img,
+    .item3 img {
+        height: 140px;
+    }
+}
+
+@media (max-width: 768px) {
+    .box {
+        padding-left: 5%;
+        padding-top: 20px;
+    }
+
+    b {
+        font-size: 50px;
+    }
+
+    .ayush {
+        font-size: 40px;
+    }
+
+    .nitish {
+        font-size: 50px;
+    }
+
+    .content1 h3,
+    .content2 span {
+        font-size: 30px;
+    }
+
+    .content1 ul {
+        font-size: 16px;
+    }
+
+    .item1 img,
+    .item2 img,
+    .item3 img {
+        height: 120px;
+    }
+
+    .box2 {
+        height: 160px;
+    }
+}
+
+@media (max-width: 576px) {
+    b {
+        font-size: 40px;
+    }
+
+    .ayush {
+        font-size: 35px;
+    }
+
+    .nitish {
+        font-size: 40px;
+    }
+
+    .content1 h3,
+    .content2 span {
+        font-size: 25px;
+    }
+
+    .content1 ul {
+        font-size: 14px;
+    }
+
+    .item1 img,
+    .item2 img,
+    .item3 img {
+        height: 100px;
+    }
+
+    .box3 {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .box4 {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .content1,
+    .content2 {
+        width: 100%;
+    }
+
+    .box2 {
+        height: 140px;
+    }
+}
+
+@media (max-width: 375px) {
+    b {
+        font-size: 35px;
+    }
+
+    .ayush {
+        font-size: 30px;
+    }
+
+    .nitish {
+        font-size: 35px;
+    }
+
+    .content1 h3,
+    .content2 span {
+        font-size: 20px;
+    }
+
+    .item1 img,
+    .item2 img,
+    .item3 img {
+        height: 90px;
+    }
+
+    .box {
+        padding-left: 5%;
+        padding-top: 10px;
+    }
 }
